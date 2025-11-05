@@ -1,0 +1,117 @@
+/* --- GLOBAL CYBER STYLES --- */
+body {
+  width: 300px;
+  padding: 15px;
+  background-color: #0c0c14; /* Very dark navy blue */
+  color: #e0e0e0; /* Light grey text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* --- SECTION STYLES --- */
+.section-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #00BFFF; /* Cyber Blue */
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.divider {
+  border: 0;
+  height: 1px;
+  background: #00BFFF;
+  opacity: 0.3;
+  margin: 20px 0;
+}
+
+/* --- CYBER INPUT BOX --- */
+.scan-section input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00BFFF;
+  border-radius: 5px;
+  background-color: #1a1a2e; /* Dark purple/blue card */
+  color: #e0e0e0;
+  box-sizing: border-box; /* Important for 100% width */
+  margin-bottom: 10px;
+}
+.scan-section input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 8px #00BFFF;
+}
+
+/* --- CYBER BUTTONS --- */
+#scan-button,
+#report-button {
+  background-color: #00BFFF; /* Deep "Cyber" Blue */
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 5px #00BFFF, 0 0 10px #00BFFF;
+}
+#scan-button:hover,
+#report-button:hover {
+  background-color: #009ACD; /* Darker on hover */
+  box-shadow: 0 0 8px #00BFFF, 0 0 15px #00BFFF; /* Brighter glow */
+}
+
+/* --- REPORT BUTTON (Slightly different style) --- */
+#report-button {
+  background-color: #ff4500; /* Neon Orange-Red */
+  box-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500;
+  margin-top: 15px;
+}
+#report-button:hover {
+  background-color: #cc3700;
+  box-shadow: 0 0 8px #ff4500, 0 0 15px #ff4500;
+}
+
+
+/* --- CYBER BANNERS --- */
+.banner {
+  padding: 15px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #1a1a2e; /* Dark purple/blue card */
+}
+.banner h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.banner p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* 🟢 GREEN (Safe) */
+.banner-green { border-color: #00FF7F; color: #00FF7F; box-shadow: 0 0 8px #00FF7F; }
+/* 🟡 YELLOW (Caution) */
+.banner-yellow { border-color: #FFD700; color: #FFD700; box-shadow: 0 0 8px #FFD700; }
+/* 🔴 RED (Danger) */
+.banner-red { border-color: #FF4500; color: #FF4500; box-shadow: 0 0 8px #FF4500; }
+/* ⚪ GRAY (Error) */
+.banner-gray { border-color: #888888; color: #888888; }
+
+
+/* --- ANIMATED LOADING SPINNER --- */
+.loading-spinner {
+  text-align: center;
+  padding: 20px;
+  color: #00BFFF;
+  font-weight: bold;
+  font-size: 1.1em;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}

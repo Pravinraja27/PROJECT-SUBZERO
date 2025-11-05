@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <div class="scan-section">
+      <p class="section-title">Manual Link Scan</p>
+      <input type="text" id="url-input" placeholder="Paste a link here..." />
+      <button id="scan-button">Scan Link</button>
+      
+      <div id="scan-result-banner" class="banner" style="display: none; margin-top: 15px;">
+        <h3 id="scan-result-title"></h3>
+        <p id="scan-result-reason"></p>
+      </div>
+    </div>
+    
+    <hr class="divider" />
+
+    <div class="scan-section">
+      <p class="section-title">Current Page Analysis</p>
+      <div id="banner" class="banner" style="display: none">
+        <h3 id="banner-title"></h3>
+        <p id="banner-reason"></p>
+      </div>
+      <div id="loading" class="loading-spinner">
+        <p>Analyzing Page...</p>
+      </div>
+    </div>
+
+    <div class="report-section">
+      <button id="report-button">Report Page as Phishing</button>
+    </div>
+    
+    <script src="popup.js"></script>
+  </body>
+</html>

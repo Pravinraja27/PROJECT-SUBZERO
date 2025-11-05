@@ -1,0 +1,21 @@
+text,label
+"Welcome to the team! Here is your onboarding doc.",SAFE
+"Team meeting rescheduled for 3 PM tomorrow.",SAFE
+"Here's the project update I promised.",SAFE
+"Search for what you see. Explore the world. Find images and more.",SAFE
+"The leading platform for developers. Millions of users. Build and share.",SAFE
+"Shop online for electronics, apparel, computers, books, DVDs & more.",SAFE
+"Get the latest news, top stories, and breaking headlines.",SAFE
+"Learn for free. Courses in math, art, computer programming, economics, and more.",SAFE
+"Sign in to access your account. Manage your profile and settings.",SAFE
+"Welcome to our blog. Read our latest posts on technology and culture.",SAFE
+"ACTION REQUIRED: Your account password has expired. Click here to update.",PHISHING
+"URGENT: Your account has been suspended due to suspicious activity. Update now.",PHISHING
+"INVOICE: Your payment for order #8291 is overdue. Please review immediately.",PHISHING
+"Congratulations! You have won a $1000 gift card. Claim now to avoid expiration!",PHISHING
+"Security Alert: Unusual sign-in activity on your account. Please verify your identity.",PHISHING
+"Your package #XF-921 could not be delivered. Please update your shipping address.",PHISHING
+"FINAL NOTICE: Your domain registration is expiring. You must renew today.",PHISHING
+"Verify your bank account. To prevent a hold, you must log in immediately.",PHISHING
+"A new device has logged in. If this was not you, please secure your account now.",PHISHING
+"Your subscription to Office 365 is expiring. Renew to keep your files.",PHISHING
