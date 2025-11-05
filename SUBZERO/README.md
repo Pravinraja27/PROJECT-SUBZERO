@@ -1,6 +1,6 @@
-# SUBZERO: Deepfake Detection Platform
+# SUBZERO: Phishinng email Detection Platform
 
-SUBZERO is a comprehensive platform for detecting deepfakes and manipulated media across multiple formats including URLs, emails, images, videos, and audio.
+SUBZERO is a comprehensive platform for detecting fake and manipulated media across multiple formats including URLs, emails, images, videos, and audio.
 
 ## Features
 
