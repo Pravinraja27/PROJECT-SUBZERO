@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/navadeep/Documents/trae_projects/SUBZERO/ml/deepfake/mlruns/0/models/m-21bfd22cb3dc40e3bfd29dd44b14a2b1/artifacts
+creation_timestamp: 1761823866103
+experiment_id: '0'
+last_updated_timestamp: 1761823874141
+model_id: m-21bfd22cb3dc40e3bfd29dd44b14a2b1
+model_type: null
+name: model
+source_run_id: 0cfab9732f1f41079812af6d51bb13c4
+status: 2
+status_message: null

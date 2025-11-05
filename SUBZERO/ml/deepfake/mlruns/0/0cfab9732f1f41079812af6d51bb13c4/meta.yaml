@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/navadeep/Documents/trae_projects/SUBZERO/ml/deepfake/mlruns/0/0cfab9732f1f41079812af6d51bb13c4/artifacts
+end_time: 1761823874193
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0cfab9732f1f41079812af6d51bb13c4
+run_name: deepfake_detection_model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761823865474
+status: 3
+tags: []
+user_id: navadeep

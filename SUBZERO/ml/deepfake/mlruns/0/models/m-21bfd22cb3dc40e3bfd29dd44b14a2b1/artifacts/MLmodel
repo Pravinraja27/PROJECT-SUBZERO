@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/navadeep/Documents/trae_projects/SUBZERO/ml/deepfake/mlruns/0/models/m-21bfd22cb3dc40e3bfd29dd44b14a2b1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-21bfd22cb3dc40e3bfd29dd44b14a2b1
+model_size_bytes: 1394547
+model_uuid: m-21bfd22cb3dc40e3bfd29dd44b14a2b1
+prompts: null
+run_id: 0cfab9732f1f41079812af6d51bb13c4
+utc_time_created: '2025-10-30 11:31:06.164411'
