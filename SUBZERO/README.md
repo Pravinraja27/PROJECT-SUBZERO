@@ -1,4 +1,4 @@
-# SUBZERO: Phishinng email Detection Platform
+# SUBZERO: Phishing email Detection Platform
 
 SUBZERO is a comprehensive platform for detecting fake and manipulated media across multiple formats including URLs, emails, images, videos, and audio.
 
